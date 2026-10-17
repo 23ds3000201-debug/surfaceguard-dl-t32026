@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (keep folder, ignore contents)
+data/*
+!data/.gitkeep
+
+# Model weights / outputs
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+checkpoints/
+outputs/
+runs/
+wandb/
+
+# Credentials
+kaggle.json
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
